@@ -1,0 +1,29 @@
+.header{
+    background-color: rgb(231, 171, 171);
+    height: 150px;
+    display:flex;
+    flex-direction: row;
+    justify-content: end;
+    flex-wrap: nowrap;
+    box-shadow: 5px 5px 2px
+}
+
+.logo{
+    flex-grow: 1;
+    margin-inline: 2%;
+    margin-top: 10px;
+}
+
+.menu{
+    align-self: end;
+    margin-right: 4%;
+}
+
+.hbar{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(240, 180, 0);
+    border-radius: 5px;
+    padding: 5px;
+    color: black;
+}
